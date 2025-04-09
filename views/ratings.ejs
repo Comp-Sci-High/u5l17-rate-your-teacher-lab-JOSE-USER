@@ -31,6 +31,19 @@
       <!-- Create a form below that matches the Ratings schema -->
       <!-- Inside of the input tag for rating add the attributes min="1" max="5" -->
       
+      <form>
+        <label>Username:</label>
+        <input type = "text" name = ratingSchema.username required />
+
+        <label>Teacher:</label>
+        <input type = "text" department = ratingSchema.teacher  />
+
+        <label>Comment:</label>
+        <input type = "text" comment = ratingSchema.comment  />
+        
+        <label>Rating:</label>
+        <input type = "number" rating = ratingSchema.rating min = "0" max="100" />
+      </form>
 
 
       
