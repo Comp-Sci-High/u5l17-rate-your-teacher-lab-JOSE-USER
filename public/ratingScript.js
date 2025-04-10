@@ -4,7 +4,7 @@
 const { json } = require("body-parser")
 const { object } = require("webidl-conversions")
 
-const rating = document.querySelector("rating")
+const rating = document.querySelector("form")
 
 rating.addEventListener("submit", async (e)=>{
     e.preventDefault()

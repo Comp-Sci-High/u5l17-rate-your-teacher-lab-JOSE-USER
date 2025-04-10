@@ -6,7 +6,7 @@ const { response } = require("express")
 const { object } = require("webidl-conversions")
 
 
-const teachForm = document.querySelector("Teachers")
+const teachForm = document.querySelector("form")
 
 teachForm.addEventListener("submit", async (e)=>{
    e.preventDefault()
